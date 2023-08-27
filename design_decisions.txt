@@ -1,0 +1,8 @@
+First thought:
+    Implement json class and template, and use it to make a json of any key and value.
+    But, but, but. how would i change key/value type once json object is instantiated.
+    my json needs to support
+    json["string"] = 12
+    json["12"] = "ayush"
+    json["data"] = some_json
+    https://www.json.org/json-en.html
