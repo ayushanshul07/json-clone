@@ -4,7 +4,7 @@
 int main(){
 
     aajson<std::string, int> myjson;
-    myjson["ayush"] = 24;
-
+    myjson["ayush"] = 22;
+    myjson.printJson();
     return 0;
 }
