@@ -1,3 +1,6 @@
+#ifndef AAJSON_JSON_H
+#define AAJSON_JSON_H
+
 #include <unordered_map>
 
 template<typename Key, typename Value>
@@ -22,3 +25,5 @@ template<typename Key, typename Value>
 Value& aajson<Key, Value>::operator[](const Key& key){
    return _content[key];
 }
+
+#endif // AAJSON_JSON_H
